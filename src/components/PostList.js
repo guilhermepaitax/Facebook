@@ -24,10 +24,6 @@ export default class PostList extends Component {
             content: "Conteúdo do comentário"
           }
         ],
-      },
-      {
-        id: 2,
-        // Restante dos dados de um novo post
       }
     ]
   };

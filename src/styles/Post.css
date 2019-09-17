@@ -26,6 +26,15 @@
   padding: 15px 45px 0 23px;
 }
 
+.post .post-footer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 15px 45px 0 23px;
+}
+
 .post .post-header img {
   width: 38px;
   height: 38px;

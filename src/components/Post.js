@@ -3,6 +3,8 @@ import React from 'react';
 import '../styles/Post.css';
 import avatar from '../assets/avatar.jpg';
 
+import Comment from './Comment';
+
 export default function Post() {
   return (
     <div className="post">
@@ -14,7 +16,17 @@ export default function Post() {
         </div>
       </div>
       <div className="post-body">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet consequuntur quaerat, perspiciatis corrupti nesciunt mollitia sunt suscipit voluptatum consequatur veritatis recusandae quos totam dolorem nobis ullam, nemo voluptas quis maxime!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet 
+          consequuntur quaerat, perspiciatis corrupti nesciunt mollitia sunt suscipit
+           voluptatum consequatur veritatis recusandae quos totam dolorem nobis ullam,
+            nemo voluptas quis maxime!</p>
+      </div>
+      <div className="post-footer">
+        <Comment />
+        <Comment />
+        <Comment />
+        <Comment />
+        <Comment />
       </div>
     </div>
   );
