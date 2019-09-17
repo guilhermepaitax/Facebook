@@ -1,0 +1,29 @@
+.comment {
+  display: flex;
+  padding: 5px 0 10px 10px;
+}
+
+.comment img {
+  width: 32px !important;
+  height: 32px !important;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.text-comment {
+  display: flex;
+  background: #EEEEEE;
+  padding: 10px 15px;
+  border-radius: 0 14px 14px 14px;
+}
+
+.comment-user-name {
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.comment-content {
+  font-size: 13px;
+  line-height: 1.60;
+}
